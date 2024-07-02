@@ -15,32 +15,32 @@ import java.util.Objects;
 public class GlobalExceptions {
 
     @ExceptionHandler(UserException.class)
-    public ResponseEntity<ErrorDetails> userExceptionHandler(UserException e, WebRequest request) {
-        ErrorDetails error = new ErrorDetails(e.getMessage(), request.getDescription(false),
+    public ResponseEntity<ErrorDetails> userExceptionHandler(UserException ex, WebRequest request) {
+        ErrorDetails error = new ErrorDetails(ex.getMessage(), request.getDescription(false),
                 LocalDateTime.now());
 
         return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
     }
 
     @ExceptionHandler(MessageException.class)
-    public ResponseEntity<ErrorDetails> messageExceptionHandler(MessageException e, WebRequest request) {
-        ErrorDetails error = new ErrorDetails(e.getMessage(), request.getDescription(false),
+    public ResponseEntity<ErrorDetails> messageExceptionHandler(MessageException ex, WebRequest request) {
+        ErrorDetails error = new ErrorDetails(ex.getMessage(), request.getDescription(false),
                 LocalDateTime.now());
 
         return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
     }
 
     @ExceptionHandler(ChatException.class)
-    public ResponseEntity<ErrorDetails> chatExceptionHandler(ChatException e, WebRequest request) {
-        ErrorDetails error = new ErrorDetails(e.getMessage(), request.getDescription(false),
+    public ResponseEntity<ErrorDetails> chatExceptionHandler(ChatException ex, WebRequest request) {
+        ErrorDetails error = new ErrorDetails(ex.getMessage(), request.getDescription(false),
                 LocalDateTime.now());
 
         return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
     }
 
     @ExceptionHandler(MethodArgumentNotValidException.class)
-    public ResponseEntity<ErrorDetails> methodArgumentNotValidExceptionHandler(MethodArgumentNotValidException e, WebRequest request) {
-        String err = Objects.requireNonNull(e.getBindingResult().getFieldError()).getDefaultMessage();
+    public ResponseEntity<ErrorDetails> methodArgumentNotValidExceptionHandler(MethodArgumentNotValidException ex, WebRequest request) {
+        String err = Objects.requireNonNull(ex.getBindingResult().getFieldError()).getDefaultMessage();
         ErrorDetails error = new ErrorDetails(e.getMessage(), err,
                 LocalDateTime.now());
 
@@ -48,16 +48,16 @@ public class GlobalExceptions {
     }
 
     @ExceptionHandler(NoHandlerFoundException.class)
-    public ResponseEntity<ErrorDetails> noHandlerFoundExceptionHandler(NoHandlerFoundException e, WebRequest request) {
-        ErrorDetails error = new ErrorDetails("No handler available for this endpoint", e.getMessage(),
+    public ResponseEntity<ErrorDetails> noHandlerFoundExceptionHandler(NoHandlerFoundException ex, WebRequest request) {
+        ErrorDetails error = new ErrorDetails("No handler available for this endpoint", ex.getMessage(),
                 LocalDateTime.now());
 
         return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
     }
 
     @ExceptionHandler(Exception.class)
-    public ResponseEntity<ErrorDetails> exceptionHandler(Exception e, WebRequest request) {
-        ErrorDetails error=new ErrorDetails(e.getMessage(),request.getDescription(false), LocalDateTime.now());
+    public ResponseEntity<ErrorDetails> exceptionHandler(Exception ex, WebRequest request) {
+        ErrorDetails error=new ErrorDetails(ex.getMessage(),request.getDescription(false), LocalDateTime.now());
         return new ResponseEntity<>(error, HttpStatus.BAD_REQUEST);
     }
 
