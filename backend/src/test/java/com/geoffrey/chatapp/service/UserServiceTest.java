@@ -1,14 +1,14 @@
-package com.nicolas.chatapp.service;
+package com.geoffrey.chatapp.service;
 
-import com.nicolas.chatapp.AbstractIntegrationTest;
-import com.nicolas.chatapp.config.JwtConstants;
-import com.nicolas.chatapp.controllers.AuthController;
-import com.nicolas.chatapp.controllers.UserController;
-import com.nicolas.chatapp.dto.request.LoginRequestDTO;
-import com.nicolas.chatapp.dto.request.UpdateUserRequestDTO;
-import com.nicolas.chatapp.dto.response.LoginResponseDTO;
-import com.nicolas.chatapp.exception.UserException;
-import com.nicolas.chatapp.model.User;
+import com.geoffrey.chatapp.AbstractIntegrationTest;
+import com.geoffrey.chatapp.config.JwtConstants;
+import com.geoffrey.chatapp.controllers.AuthController;
+import com.geoffrey.chatapp.controllers.UserController;
+import com.geoffrey.chatapp.dto.request.LoginRequestDTO;
+import com.geoffrey.chatapp.dto.request.UpdateUserRequestDTO;
+import com.geoffrey.chatapp.dto.response.LoginResponseDTO;
+import com.geoffrey.chatapp.exception.UserException;
+import com.geoffrey.chatapp.model.User;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.MalformedJwtException;
 import org.junit.jupiter.api.Test;

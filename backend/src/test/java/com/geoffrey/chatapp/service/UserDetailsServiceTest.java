@@ -1,6 +1,6 @@
-package com.nicolas.chatapp.service;
+package com.geoffrey.chatapp.service;
 
-import com.nicolas.chatapp.AbstractIntegrationTest;
+import com.geoffrey.chatapp.AbstractIntegrationTest;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

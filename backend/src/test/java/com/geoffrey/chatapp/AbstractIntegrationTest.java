@@ -1,4 +1,4 @@
-package com.nicolas.chatapp;
+package com.geoffrey.chatapp;
 
 import jakarta.transaction.Transactional;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
