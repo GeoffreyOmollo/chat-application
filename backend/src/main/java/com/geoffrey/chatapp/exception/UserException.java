@@ -1,4 +1,4 @@
-package com.nicolas.chatapp.exception;
+package com.geoffrey.chatapp.exception;
 
 public class UserException extends Exception {
 

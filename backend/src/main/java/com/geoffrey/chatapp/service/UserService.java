@@ -1,8 +1,8 @@
-package com.nicolas.chatapp.service;
+package com.geoffrey.chatapp.service;
 
-import com.nicolas.chatapp.dto.request.UpdateUserRequestDTO;
-import com.nicolas.chatapp.exception.UserException;
-import com.nicolas.chatapp.model.User;
+import com.geoffrey.chatapp.dto.request.UpdateUserRequestDTO;
+import com.geoffrey.chatapp.exception.UserException;
+import com.geoffrey.chatapp.model.User;
 
 import java.util.List;
 import java.util.UUID;

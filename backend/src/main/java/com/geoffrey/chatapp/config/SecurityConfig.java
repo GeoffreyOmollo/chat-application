@@ -1,4 +1,4 @@
-package com.nicolas.chatapp.config;
+package com.geoffrey.chatapp.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;

@@ -1,7 +1,7 @@
-package com.nicolas.chatapp.service.implementation;
+package com.geoffrey.chatapp.service.implementation;
 
-import com.nicolas.chatapp.model.User;
-import com.nicolas.chatapp.repository.UserRepository;
+import com.geoffrey.chatapp.model.User;
+import com.geoffrey.chatapp.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

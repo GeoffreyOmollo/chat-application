@@ -1,4 +1,4 @@
-package com.nicolas.chatapp.dto.response;
+package com.geoffrey.chatapp.dto.response;
 
 import lombok.Builder;
 

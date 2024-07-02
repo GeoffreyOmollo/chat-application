@@ -1,11 +1,11 @@
-package com.nicolas.chatapp.service;
+package com.geoffrey.chatapp.service;
 
-import com.nicolas.chatapp.dto.request.SendMessageRequestDTO;
-import com.nicolas.chatapp.exception.ChatException;
-import com.nicolas.chatapp.exception.MessageException;
-import com.nicolas.chatapp.exception.UserException;
-import com.nicolas.chatapp.model.Message;
-import com.nicolas.chatapp.model.User;
+import com.geoffrey.chatapp.dto.request.SendMessageRequestDTO;
+import com.geoffrey.chatapp.exception.ChatException;
+import com.geoffrey.chatapp.exception.MessageException;
+import com.geoffrey.chatapp.exception.UserException;
+import com.geoffrey.chatapp.model.Message;
+import com.geoffrey.chatapp.model.User;
 
 import java.util.List;
 import java.util.UUID;

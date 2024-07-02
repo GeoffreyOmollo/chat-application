@@ -1,12 +1,12 @@
-package com.nicolas.chatapp.service.implementation;
+package com.geoffrey.chatapp.service.implementation;
 
-import com.nicolas.chatapp.config.JwtConstants;
-import com.nicolas.chatapp.config.TokenProvider;
-import com.nicolas.chatapp.dto.request.UpdateUserRequestDTO;
-import com.nicolas.chatapp.exception.UserException;
-import com.nicolas.chatapp.model.User;
-import com.nicolas.chatapp.repository.UserRepository;
-import com.nicolas.chatapp.service.UserService;
+import com.geoffrey.chatapp.config.JwtConstants;
+import com.geoffrey.chatapp.config.TokenProvider;
+import com.geoffrey.chatapp.dto.request.UpdateUserRequestDTO;
+import com.geoffrey.chatapp.exception.UserException;
+import com.geoffrey.chatapp.model.User;
+import com.geoffrey.chatapp.repository.UserRepository;
+import com.geoffrey.chatapp.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.stereotype.Service;

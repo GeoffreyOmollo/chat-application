@@ -1,6 +1,6 @@
-package com.nicolas.chatapp.dto.response;
+package com.geoffrey.chatapp.dto.response;
 
-import com.nicolas.chatapp.model.User;
+import com.geoffrey.chatapp.model.User;
 import lombok.Builder;
 
 import java.util.*;

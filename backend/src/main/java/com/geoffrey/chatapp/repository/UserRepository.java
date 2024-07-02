@@ -1,6 +1,6 @@
-package com.nicolas.chatapp.repository;
+package com.geoffrey.chatapp.repository;
 
-import com.nicolas.chatapp.model.User;
+import com.geoffrey.chatapp.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

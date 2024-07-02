@@ -1,13 +1,13 @@
-package com.nicolas.chatapp.controllers;
+package com.geoffrey.chatapp.controllers;
 
-import com.nicolas.chatapp.config.TokenProvider;
-import com.nicolas.chatapp.dto.request.LoginRequestDTO;
-import com.nicolas.chatapp.dto.request.UpdateUserRequestDTO;
-import com.nicolas.chatapp.dto.response.LoginResponseDTO;
-import com.nicolas.chatapp.exception.UserException;
-import com.nicolas.chatapp.model.User;
-import com.nicolas.chatapp.repository.UserRepository;
-import com.nicolas.chatapp.service.implementation.CustomUserDetailsService;
+import com.geoffrey.chatapp.config.TokenProvider;
+import com.geoffrey.chatapp.dto.request.LoginRequestDTO;
+import com.geoffrey.chatapp.dto.request.UpdateUserRequestDTO;
+import com.geoffrey.chatapp.dto.response.LoginResponseDTO;
+import com.geoffrey.chatapp.exception.UserException;
+import com.geoffrey.chatapp.model.User;
+import com.geoffrey.chatapp.repository.UserRepository;
+import com.geoffrey.chatapp.service.implementation.CustomUserDetailsService;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;

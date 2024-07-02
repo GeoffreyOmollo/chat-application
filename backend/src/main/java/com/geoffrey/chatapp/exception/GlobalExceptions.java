@@ -1,4 +1,4 @@
-package com.nicolas.chatapp.exception;
+package com.geoffrey.chatapp.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

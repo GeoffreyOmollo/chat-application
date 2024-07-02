@@ -1,6 +1,6 @@
-package com.nicolas.chatapp.repository;
+package com.geoffrey.chatapp.repository;
 
-import com.nicolas.chatapp.model.Message;
+import com.geoffrey.chatapp.model.Message;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

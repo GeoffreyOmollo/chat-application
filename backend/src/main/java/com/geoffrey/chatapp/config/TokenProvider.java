@@ -1,4 +1,4 @@
-package com.nicolas.chatapp.config;
+package com.geoffrey.chatapp.config;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.JwtParser;

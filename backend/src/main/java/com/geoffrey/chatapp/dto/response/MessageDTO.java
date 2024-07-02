@@ -1,6 +1,6 @@
-package com.nicolas.chatapp.dto.response;
+package com.geoffrey.chatapp.dto.response;
 
-import com.nicolas.chatapp.model.Message;
+import com.geoffrey.chatapp.model.Message;
 import lombok.Builder;
 
 import java.time.LocalDateTime;

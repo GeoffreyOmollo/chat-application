@@ -1,13 +1,13 @@
-package com.nicolas.chatapp.service.implementation;
+package com.geoffrey.chatapp.service.implementation;
 
-import com.nicolas.chatapp.dto.request.GroupChatRequestDTO;
-import com.nicolas.chatapp.exception.ChatException;
-import com.nicolas.chatapp.exception.UserException;
-import com.nicolas.chatapp.model.Chat;
-import com.nicolas.chatapp.model.User;
-import com.nicolas.chatapp.repository.ChatRepository;
-import com.nicolas.chatapp.service.ChatService;
-import com.nicolas.chatapp.service.UserService;
+import com.geoffrey.chatapp.dto.request.GroupChatRequestDTO;
+import com.geoffrey.chatapp.exception.ChatException;
+import com.geoffrey.chatapp.exception.UserException;
+import com.geoffrey.chatapp.model.Chat;
+import com.geoffrey.chatapp.model.User;
+import com.geoffrey.chatapp.repository.ChatRepository;
+import com.geoffrey.chatapp.service.ChatService;
+import com.geoffrey.chatapp.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

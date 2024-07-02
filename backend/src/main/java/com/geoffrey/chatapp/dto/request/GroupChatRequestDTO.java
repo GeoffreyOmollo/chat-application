@@ -1,4 +1,4 @@
-package com.nicolas.chatapp.dto.request;
+package com.geoffrey.chatapp.dto.request;
 
 import java.util.List;
 import java.util.UUID;
